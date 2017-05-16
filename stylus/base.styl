@@ -1,0 +1,71 @@
+.-centerX
+	left: 50%;
+	transform: translateX(-50%)
+.-centerY
+	top: 50%;
+	transform: translateY(-50%)
+.-center
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%)
+	
+.-contain
+	background-repeat: no-repeat !important
+	background-position: center center !important
+	background-size: contain !important
+.-containX
+	background-repeat: no-repeat !important
+	background-position: center center !important
+	background-size: 100% !important
+.-containY
+	background-repeat: no-repeat !important
+	background-position: center center !important
+	background-size: auto 100% !important
+.-containFull
+	background-repeat: no-repeat !important
+	background-position: center center !important
+	background-size: 100% 100% !important
+	
+img[src='']
+	opacity: 0
+	
+.-clearfix:after
+	content: ''
+	display: table
+	clear: both
+
+.-justifyBox:after
+	display:inline-block
+	overflow:hidden
+	width:100%
+	height:0
+	content:''
+	vertical-align:top
+	
+.-overflowText
+	overflow: hidden
+	white-space: nowrap
+	text-overflow: ellipsis
+
+.fade-enter, .fade-leave-active
+	opacity: 0
+
+.fullpage
+	position: absolute
+	width: 100vw
+	height: 100vh
+	left: 0
+	top: 0
+	overflow-y: scroll
+	overflow-x: hidden
+	background-color: #fff
+	transition: all .4s
+	z-index: 400
+	&::-webkit-scrollbar
+		width: 0px
+
+.fade-slide-enter, .fade-slide-leave-active
+	transform: translate3d(2rem, 0, 0)
+	opacity: 0
+	
+	
