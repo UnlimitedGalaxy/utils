@@ -1,0 +1,195 @@
+border-1px($color, $isTop=false)
+	&:after
+		display: block
+		width: 100%
+		position: absolute
+		left: 0
+		if ($isTop)
+			top: 0
+		else
+			bottom: 0
+		border-top: 1px solid $color
+		content: ' '
+
+border-none()
+	&:after
+		display: none
+
+bg-image($url)
+	background-image: url($url+"@2x.png")
+	@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3)
+		background-image: url($url+"@3x.png")
+		
+inlineBoxSize(width,height) {
+	vertical-align: top
+	display: inline-block
+	box-sizing: border-box
+	width: width
+	height: height;
+	{block}
+}
+	
+gridFrame(wrapStyle, types, allStyle, num)
+	> ul
+		font-size: 0;
+		line-height: 0;
+		{wrapStyle}
+		if num >= 1
+			temp1 = types['1']
+			li:nth-child({ unquote(''+num+'n+1')})
+				{temp1}
+		if num >= 2
+			temp2 = types['2']
+			li:nth-child({ unquote(''+num+'n+2')})
+				{temp2}
+		if num >= 3
+			temp3 = types['3']
+			li:nth-child({ unquote(''+num+'n+3')})
+				{temp3}
+		if num >= 4
+			temp4 = types['4']
+			li:nth-child({ unquote(''+num+'n+4')})
+				{temp4}
+		if num >= 5
+			temp5 = types['5']
+			li:nth-child({ unquote(''+num+'n+5')})
+				{temp5}
+		> li
+			display: inline-block;
+			box-sizing: border-box;
+			width: (1/num*100)%;
+			{allStyle}
+			{block}
+
+rowFrame(wrapStyle)
+	ul
+		display: inline-block;
+		text-align: justify;
+		font-size: 0;
+		{wrapStyle}
+		&:after
+			display: inline-block
+			overflow: hidden
+			width: 100%
+			height: 0
+			content: ''
+			vertical-align: top
+		>li
+			display: inline-block;
+			{block}
+			
+border-1px-center($color)
+	&:after
+		position: absolute
+		width: 100%
+		left: 0
+		top: 50%
+		border-top: 1px solid $color
+		content: ' '
+		@media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
+			-webkit-transform: scaleY(0.7)
+			transform: scaleY(0.7)
+		
+		@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)
+			-webkit-transform: scaleY(0.5)
+			transform: scaleY(0.5)
+	&:before
+		position: absolute
+		height: 100%
+		left: 50%
+		top: 0
+		border-right: 1px solid $color
+		content: ' '
+		@media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
+			-webkit-transform: scaleX(0.7)
+			transform: scaleX(0.7)
+		@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)
+			-webkit-transform: scaleX(0.5)
+			transform: scaleX(0.5)
+
+border-1px-select($color, $select)
+	&:after
+		position: absolute
+		content: ' '
+		if ($select == 'top')
+			width: 100%
+			left: 0
+			top: 0
+			border-top: 1px solid $color
+			@media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
+				-webkit-transform: scaleY(0.7)
+				transform: scaleY(0.7)
+			@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)
+				-webkit-transform: scaleY(0.5)
+				transform: scaleY(0.5)
+		if ($select == 'bottom')
+			width: 100%
+			bottom: 0
+			left: 0
+			border-top: 1px solid $color
+			@media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
+				-webkit-transform: scaleY(0.7)
+				transform: scaleY(0.7)
+			@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)
+				-webkit-transform: scaleY(0.5)
+				transform: scaleY(0.5)
+		if ($select == 'left')
+			height: 100%
+			left: 0
+			border-right: 1px solid $color
+			@media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
+				-webkit-transform: scaleX(0.7)
+				transform: scaleX(0.7)
+			@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)
+				-webkit-transform: scaleX(0.5)
+				transform: scaleX(0.5)
+		if ($select == 'right')
+			height: 100%
+			right: 0
+			border-right: 1px solid $color
+			@media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
+				-webkit-transform: scaleX(0.7)
+				transform: scaleX(0.7)
+			@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)
+				-webkit-transform: scaleX(0.5)
+				transform: scaleX(0.5)
+		
+
+border-gap($color=borderGapColor, $height=.2rem)
+	border-bottom: $height solid $color
+			
+font-setting()
+	if arguments[2]
+		$height = arguments[2]
+	else
+		$height = arguments[0]
+	if arguments[1] is a 'rgba'
+		$color = arguments[1]
+	else
+		$color = mainFontColor
+	if arguments[0]
+		$size = arguments[0]
+	else
+		$size = @height
+	color: $color
+	font-size: $size
+	text-align: center
+	line-height: $height
+	white-space: nowrap
+
+font-height($size)
+	font-size: $size
+	line-height: @font-size
+
+circle($size)
+	width: $size
+	height: $size
+	border-radius: 50%
+	
+mainColor = #ffc002
+Border1pxColor = #c8c9c9
+contentBorder1pxColor = #c8c9c9
+mainFontColor = #999
+deepFontColor = #545454
+secondaryFontColor = #666
+borderGapColor = #f2f5f5
