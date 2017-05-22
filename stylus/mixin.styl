@@ -1,3 +1,6 @@
+@import "val.styl"
+@import "func.styl"
+
 border-1px($color, $isTop=false)
 	&:after
 		display: block
@@ -162,7 +165,7 @@ font-setting()
 	if arguments[2]
 		$height = arguments[2]
 	else
-		$height = arguments[0]
+		$height = 1
 	if arguments[1] is a 'rgba'
 		$color = arguments[1]
 	else
@@ -186,15 +189,28 @@ circle($size)
 	height: $size
 	border-radius: 50%
 	
-mainColor = #ffc002
-Border1pxColor = #c8c9c9
-contentBorder1pxColor = #c8c9c9
-mainFontColor = #999
-deepFontColor = #545454
-secondaryFontColor = #666
-borderGapColor = #f2f5f5
+wrapperSize(path)
+	width: e(image-size(path)[0])
+	height: e(image-size(path)[1])
+	background-image: url(path)
+	
+resH($h1, $h2, $signal)
+	if (!$signal)
+		width: 100%
+	height: floor(($h2/$h1) * 100) + '%'
 
-ex(a)
-	a = a / 100
-	a = unit(a, rem)
-	a
+resW($w1, $w2, $signal)
+	width: floor(($w2/$w1) * 100) + '%'
+	if (!$signal)
+		height: 100%
+	
+resFull($w, $h)
+	width: 100%
+	padding-top: floor(($h/$w) * 100) + '%'
+		
+resC()
+	position: absolute
+	left: 0
+	top: 0
+	right: 0
+	bottom: 0

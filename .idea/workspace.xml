@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fd4eda5-6dde-4334-b027-cf98b6dcf53a" name="Default" comment="try commit">
+    <list default="true" id="1fd4eda5-6dde-4334-b027-cf98b6dcf53a" name="Default" comment="mixin and js tools update 5.22 galaxy">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylus/imgs/character1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylus/imgs/character2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylus/imgs/character3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylus/imgs/character4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylus/imgs/character5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylus/imgs/character6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylus/imgs/character7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylus/imgs/character8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylus/imgs/character9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/center.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/localStore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylus/func.styl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylus/test.styl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylus/val.styl" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vueComponent/test.styl" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vueComponent/mixin.styl" afterPath="$PROJECT_DIR$/vueComponent/mixin.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vueComponent/test.styl" afterPath="$PROJECT_DIR$/vueComponent/test.styl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vueComponent/base.styl" afterPath="$PROJECT_DIR$/stylus/base.styl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vueComponent/components.styl" afterPath="$PROJECT_DIR$/stylus/components.styl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vueComponent/mixin.styl" afterPath="$PROJECT_DIR$/stylus/mixin.styl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vueComponent/reset.styl" afterPath="$PROJECT_DIR$/stylus/reset.styl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vueComponent/stylusUtil.styl" afterPath="$PROJECT_DIR$/stylus/stylusUtil.styl" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +44,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="character4.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylus/imgs/character4.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylus/base.styl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -33,56 +61,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueComponent/test.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="load.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/load.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueComponent/test.css">
+      <file leaf-file-name="components.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylus/components.styl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="character5.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylus/imgs/character5.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="character6.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylus/imgs/character6.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="character7.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylus/imgs/character7.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="mixin.styl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vueComponent/mixin.styl">
+        <entry file="file://$PROJECT_DIR$/stylus/mixin.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="815">
-              <caret line="199" column="3" lean-forward="false" selection-start-line="199" selection-start-column="3" selection-end-line="199" selection-end-column="3" />
+            <state relative-caret-position="240">
+              <caret line="191" column="17" lean-forward="true" selection-start-line="191" selection-start-column="17" selection-end-line="191" selection-end-column="17" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="character8.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylus/imgs/character8.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="func.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylus/func.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="character9.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylus/imgs/character9.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -92,8 +132,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue File" />
-        <option value="stylus" />
         <option value="CSS File" />
+        <option value="stylus" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -114,29 +155,43 @@
         <option value="$PROJECT_DIR$/stylus/mixin.css" />
         <option value="$PROJECT_DIR$/stylus/test.vue" />
         <option value="$PROJECT_DIR$/stylus/test.css" />
-        <option value="$PROJECT_DIR$/stylus/mixin.styl" />
         <option value="$PROJECT_DIR$/stylus/test.styl" />
         <option value="$PROJECT_DIR$/stylus/base.styl" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/stylus/components.styl" />
         <option value="$PROJECT_DIR$/stylus/1.css" />
+        <option value="$PROJECT_DIR$/vueComponent/val.styl" />
+        <option value="$PROJECT_DIR$/vueComponent/func.styl" />
+        <option value="$PROJECT_DIR$/vueComponent/utils.styl" />
+        <option value="$PROJECT_DIR$/js/center.js" />
+        <option value="$PROJECT_DIR$/vueComponent/reset.styl" />
+        <option value="$PROJECT_DIR$/js/upload.js" />
         <option value="$PROJECT_DIR$/vueComponent/test.css" />
         <option value="$PROJECT_DIR$/vueComponent/test.styl" />
         <option value="$PROJECT_DIR$/vueComponent/mixin.styl" />
+        <option value="$PROJECT_DIR$/js/load.js" />
+        <option value="$PROJECT_DIR$/stylus/mixin.styl" />
+        <option value="$PROJECT_DIR$/stylus/func.styl" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1924" />
-    <option name="height" value="1056" />
+    <option name="x" value="134" />
+    <option name="y" value="135" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -172,7 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,25 +249,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vueComponent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test.styl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vueComponent" />
+              <option name="myItemId" value="stylus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,10 +270,11 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js.eslint.eslintPackage" value="C:\Users\星辰galaxy\AppData\Roaming\npm\node_modules\eslint" />
     <property name="nodejs_interpreter_path" value="F:/安装包/node/node" />
@@ -246,9 +283,16 @@
     <property name="js-jscs-nodeInterpreter" value="F:\安装包\node\node.exe" />
     <property name="js-jscs-package" value="C:\Users\星辰galaxy\AppData\Roaming\npm\node_modules\jscs" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\website\Myself\Module\utils\stylus" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\website\Myself\Module\utils\js" />
+      <recent name="F:\website\Myself\Module\utils\vueComponent\imgs" />
       <recent name="F:\website\Myself\Module\utils\vueComponent" />
       <recent name="F:\website\Myself\Module\cssUtil\stylus" />
     </key>
@@ -334,7 +378,15 @@
       <workItem from="1494576247883" duration="619000" />
       <workItem from="1494668490581" duration="571000" />
       <workItem from="1494905935381" duration="2720000" />
-      <workItem from="1494990253854" duration="1270000" />
+      <workItem from="1494990253854" duration="1311000" />
+      <workItem from="1494992377333" duration="5411000" />
+      <workItem from="1495072574071" duration="2650000" />
+      <workItem from="1495158342607" duration="146000" />
+      <workItem from="1495161497767" duration="13000" />
+      <workItem from="1495195833440" duration="42000" />
+      <workItem from="1495244992884" duration="4423000" />
+      <workItem from="1495368935517" duration="4631000" />
+      <workItem from="1495424352180" duration="1131000" />
     </task>
     <task id="LOCAL-00001" summary="try commit">
       <created>1494906225286</created>
@@ -343,23 +395,31 @@
       <option name="project" value="LOCAL" />
       <updated>1494906225286</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mixin and js tools update 5.17 galaxy">
+      <created>1494991558485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1494991558485</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11092000" />
+    <option name="totallyTimeSpent" value="29580000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
+    <frame x="134" y="135" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24920467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3452381" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30043384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275488" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30043384" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21786834" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49836066" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -397,31 +457,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="try commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="try commit" />
+    <MESSAGE value="mixin and js tools update 5.17 galaxy" />
+    <MESSAGE value="mixin and js tools update 5.18 galaxy" />
+    <MESSAGE value="mixin and js tools update 5.22 galaxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="mixin and js tools update 5.22 galaxy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stylus/test.css" />
-    <entry file="file://$PROJECT_DIR$/stylus/stylusUtil.css" />
-    <entry file="file://$PROJECT_DIR$/stylus/icon.styl" />
-    <entry file="file://$PROJECT_DIR$/stylus/mixin.styl" />
-    <entry file="file://$PROJECT_DIR$/stylus/mixin.css" />
-    <entry file="file://$PROJECT_DIR$/css/cssUtil.css" />
-    <entry file="file://$PROJECT_DIR$/stylus/stylusUtil.styl" />
-    <entry file="file://$PROJECT_DIR$/stylus/test.styl" />
-    <entry file="file://$PROJECT_DIR$/stylus/test.css" />
-    <entry file="file://$PROJECT_DIR$/stylus/stylusUtil.css" />
-    <entry file="file://$PROJECT_DIR$/stylus/icon.styl" />
-    <entry file="file://$PROJECT_DIR$/stylus/mixin.styl" />
-    <entry file="file://$PROJECT_DIR$/stylus/mixin.css" />
-    <entry file="file://$PROJECT_DIR$/css/cssUtil.css" />
-    <entry file="file://$PROJECT_DIR$/stylus/stylusUtil.styl" />
-    <entry file="file://$PROJECT_DIR$/stylus/stylusUtil.css" />
-    <entry file="file://$PROJECT_DIR$/stylus/icon.styl" />
-    <entry file="file://$PROJECT_DIR$/stylus/mixin.styl" />
     <entry file="file://$PROJECT_DIR$/stylus/mixin.css" />
     <entry file="file://$PROJECT_DIR$/css/cssUtil.css" />
     <entry file="file://$PROJECT_DIR$/stylus/stylusUtil.styl" />
@@ -445,15 +490,6 @@
     <entry file="file://$PROJECT_DIR$/stylus/test.styl" />
     <entry file="file://$PROJECT_DIR$/stylus/stylusUtil.css" />
     <entry file="file://$PROJECT_DIR$/stylus/base.styl" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylus/components.styl" />
     <entry file="file://$PROJECT_DIR$/stylus/1.css" />
     <entry file="file://$PROJECT_DIR$/stylus/icon.css" />
     <entry file="file://$PROJECT_DIR$/stylus/icon.styl" />
@@ -462,21 +498,12 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/load.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vueComponent/test.css">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -484,18 +511,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueComponent/test.styl">
+    <entry file="file://$PROJECT_DIR$/stylus/val.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueComponent/utils.styl" />
+    <entry file="file://$PROJECT_DIR$/stylus/val.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueComponent/mixin.styl">
+    <entry file="file://$PROJECT_DIR$/js/center.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="199" column="3" lean-forward="false" selection-start-line="199" selection-start-column="3" selection-end-line="199" selection-end-column="3" />
+        <state relative-caret-position="621">
+          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/reset.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/test.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/load.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/localStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/imgs/character1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/imgs/character2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/imgs/character3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/imgs/character4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/imgs/character5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/imgs/character6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/imgs/character7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/imgs/character8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/imgs/character9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/base.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/components.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/func.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/mixin.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="191" column="17" lean-forward="true" selection-start-line="191" selection-start-column="17" selection-end-line="191" selection-end-column="17" />
           <folding />
         </state>
       </provider>
