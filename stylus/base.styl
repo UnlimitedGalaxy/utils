@@ -10,21 +10,24 @@
 	transform: translate(-50%, -50%)
 	
 .-contain
-	background-repeat: no-repeat !important
-	background-position: center center !important
-	background-size: contain !important
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: contain
 .-containX
-	background-repeat: no-repeat !important
-	background-position: center center !important
-	background-size: 100% !important
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: 100%
 .-containY
-	background-repeat: no-repeat !important
-	background-position: center center !important
-	background-size: auto 100% !important
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: auto 100%
 .-containFull
-	background-repeat: no-repeat !important
-	background-position: center center !important
-	background-size: 100% 100% !important
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: 100% 100%
+	
+.-cursor
+	cursor: pointer
 	
 img[src='']
 	opacity: 0
@@ -42,7 +45,7 @@ img[src='']
 	content:''
 	vertical-align:top
 	
-.-overflowText
+.-textOverflow
 	overflow: hidden
 	white-space: nowrap
 	text-overflow: ellipsis
@@ -68,3 +71,15 @@ img[src='']
 	transform: translate3d(2rem, 0, 0)
 	opacity: 0
 	
+.-resFull
+	position: absolute
+	left: 0
+	top: 0
+	right: 0
+	bottom: 0
+	
+.-multiLineOverflow
+	display: -webkit-box
+	-webkit-box-orient: vertical
+	-webkit-line-clamp: 3
+	overflow: hidden
