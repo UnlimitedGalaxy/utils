@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fd4eda5-6dde-4334-b027-cf98b6dcf53a" name="Default" comment="mixin and js tools update 5.22 galaxy">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/adjust.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/check.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/settings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vueComponent/location.vue" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vueComponent/test.styl" afterPath="" />
+    <list default="true" id="1fd4eda5-6dde-4334-b027-cf98b6dcf53a" name="Default" comment="mixin and js tools update 5.31 galaxy">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/uuid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vueComponent/button.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vueComponent/search.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/base.styl" afterPath="$PROJECT_DIR$/stylus/base.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylus/test.styl" afterPath="$PROJECT_DIR$/stylus/test.styl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/upload.js" afterPath="$PROJECT_DIR$/js/getMessage.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +24,125 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="base.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylus/base.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mixin.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylus/mixin.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="571">
+              <caret line="182" column="18" lean-forward="true" selection-start-line="182" selection-start-column="18" selection-end-line="182" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="button.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vueComponent/button.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1492396412734" expanded="true" signature="177:1085" ph="{...}" />
+                <marker date="1492396412734" expanded="true" signature="191:424" ph="{...}" />
+                <marker date="1492396412734" expanded="true" signature="206:242" ph="{&quot;type&quot;: String...}" />
+                <marker date="1492396412734" expanded="true" signature="264:300" ph="{&quot;type&quot;: String...}" />
+                <marker date="1492396412734" expanded="true" signature="322:358" ph="{&quot;type&quot;: String...}" />
+                <marker date="1492396412734" expanded="true" signature="379:414" ph="{&quot;type&quot;: String...}" />
+                <marker date="1492396412734" expanded="true" signature="443:523" ph="{...}" />
+                <marker date="1492396412734" expanded="true" signature="465:513" ph="{...}" />
+                <marker date="1492396412734" expanded="true" signature="543:1079" ph="{...}" />
+                <marker date="1492396412734" expanded="true" signature="830:962" ph="{...}" />
+                <marker date="1492396412734" expanded="true" signature="991:1069" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylus/reset.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="815">
+              <caret line="102" column="1" lean-forward="false" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="localStore.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/localStore.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/check.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vueComponent/search.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <marker date="1496308122760" expanded="true" signature="1414:3563" ph="{...}" />
+                <marker date="1496308122760" expanded="true" signature="1460:2247" ph="{&quot;autoScrollToTop&quot;: Boolean...}" />
+                <marker date="1496308122760" expanded="true" signature="1484:1561" ph="{&quot;type&quot;: Boolean...}" />
+                <marker date="1496308122760" expanded="true" signature="1588:1663" ph="{&quot;type&quot;: String...}" />
+                <marker date="1496308122760" expanded="true" signature="1689:1764" ph="{&quot;type&quot;: String...}" />
+                <marker date="1496308122760" expanded="true" signature="1785:1858" ph="{&quot;type&quot;: String...}" />
+                <marker date="1496308122760" expanded="true" signature="1881:2002" ph="{&quot;type&quot;: Array...}" />
+                <marker date="1496308122760" expanded="true" signature="1939:1988" ph="{...}" />
+                <marker date="1496308122760" expanded="true" signature="2021:2097" ph="{&quot;type&quot;: String...}" />
+                <marker date="1496308122760" expanded="true" signature="2121:2199" ph="{&quot;type&quot;: String...}" />
+                <marker date="1496308122760" expanded="true" signature="2267:2369" ph="{...}" />
+                <marker date="1496308122760" expanded="true" signature="2297:2359" ph="{...}" />
+                <marker date="1496308122760" expanded="true" signature="2388:3157" ph="{...}" />
+                <marker date="1496308122760" expanded="true" signature="2410:2532" ph="{...}" />
+                <marker date="1496308122760" expanded="true" signature="2555:2686" ph="{...}" />
+                <marker date="1496308122760" expanded="true" signature="2724:2877" ph="{...}" />
+                <marker date="1496308122760" expanded="true" signature="2902:2958" ph="{...}" />
+                <marker date="1496308122760" expanded="true" signature="2982:3072" ph="{...}" />
+                <marker date="1496308122760" expanded="true" signature="3095:3147" ph="{...}" />
+                <marker date="1496308122760" expanded="true" signature="3174:3317" ph="{...}" />
+                <marker date="1496308122760" expanded="true" signature="3195:3307" ph="{&quot;currentValue&quot;: ''...}" />
+                <marker date="1496308122760" expanded="true" signature="3334:3557" ph="{...}" />
+                <marker date="1496308122760" expanded="true" signature="3359:3414" ph="{...}" />
+                <marker date="1496308122760" expanded="true" signature="3446:3547" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="35" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,6 +151,7 @@
         <option value="CSS File" />
         <option value="stylus" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -75,6 +192,10 @@
         <option value="$PROJECT_DIR$/js/adjust.js" />
         <option value="$PROJECT_DIR$/stylus/base.styl" />
         <option value="$PROJECT_DIR$/js/settings.js" />
+        <option value="$PROJECT_DIR$/js/tools.js" />
+        <option value="$PROJECT_DIR$/stylus/reset.styl" />
+        <option value="$PROJECT_DIR$/view/test.html" />
+        <option value="$PROJECT_DIR$/js/getMessage.js" />
       </list>
     </option>
   </component>
@@ -130,7 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -167,6 +287,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="stylus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -181,13 +315,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="stylus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylusUtil.styl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,9 +341,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\website\Myself\Module\utils\vueComponent" />
       <recent name="F:\website\Myself\Module\utils\stylus" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -314,7 +455,12 @@
       <workItem from="1496198312244" duration="5000" />
       <workItem from="1496201607786" duration="201000" />
       <workItem from="1496212098498" duration="737000" />
-      <workItem from="1496223716879" duration="911000" />
+      <workItem from="1496223716879" duration="1534000" />
+      <workItem from="1496230843348" duration="755000" />
+      <workItem from="1496286092666" duration="2276000" />
+      <workItem from="1496305374941" duration="1732000" />
+      <workItem from="1496308721895" duration="21000" />
+      <workItem from="1496310373075" duration="511000" />
     </task>
     <task id="LOCAL-00001" summary="try commit">
       <created>1494906225286</created>
@@ -337,33 +483,40 @@
       <option name="project" value="LOCAL" />
       <updated>1495425520489</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mixin and js tools update 5.31 galaxy">
+      <created>1496224671506</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1496224671506</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38526000" />
+    <option name="totallyTimeSpent" value="44444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.243941" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42299348" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42299348" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21691974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4978308" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21691974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +548,8 @@
     <MESSAGE value="mixin and js tools update 5.17 galaxy" />
     <MESSAGE value="mixin and js tools update 5.18 galaxy" />
     <MESSAGE value="mixin and js tools update 5.22 galaxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="mixin and js tools update 5.22 galaxy" />
+    <MESSAGE value="mixin and js tools update 5.31 galaxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="mixin and js tools update 5.31 galaxy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -408,18 +562,12 @@
     <entry file="file://$PROJECT_DIR$/stylus/stylusUtil.styl" />
     <entry file="file://$PROJECT_DIR$/stylus/icon.styl" />
     <entry file="file://$PROJECT_DIR$/stylus/mixin.styl" />
-    <entry file="file://$PROJECT_DIR$/css/cssUtil.css" />
-    <entry file="file://$PROJECT_DIR$/stylus/stylusUtil.styl" />
-    <entry file="file://$PROJECT_DIR$/stylus/icon.styl" />
-    <entry file="file://$PROJECT_DIR$/stylus/mixin.styl" />
     <entry file="file://$PROJECT_DIR$/stylus/mixin.css" />
     <entry file="file://$PROJECT_DIR$/stylus/test.vue" />
     <entry file="file://$PROJECT_DIR$/stylus/mixin.styl" />
     <entry file="file://$PROJECT_DIR$/css/cssUtil.css" />
     <entry file="file://$PROJECT_DIR$/stylus/test.css" />
-    <entry file="file://$PROJECT_DIR$/stylus/stylusUtil.styl" />
     <entry file="file://$PROJECT_DIR$/stylus/test.styl" />
-    <entry file="file://$PROJECT_DIR$/stylus/stylusUtil.css" />
     <entry file="file://$PROJECT_DIR$/stylus/base.styl" />
     <entry file="file://$PROJECT_DIR$/stylus/1.css" />
     <entry file="file://$PROJECT_DIR$/stylus/icon.css" />
@@ -460,20 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylus/reset.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylus/test.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -529,27 +663,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylus/mixin.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4393">
-          <caret line="191" column="17" lean-forward="false" selection-start-line="191" selection-start-column="17" selection-end-line="191" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stylus/func.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/check.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -557,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -565,23 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/localStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/upload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -597,15 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylus/base.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="80" column="19" lean-forward="false" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -613,7 +702,147 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/uuid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/localStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="35" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/getMessage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/check.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/base.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/stylusUtil.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/stylusUtil.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/reset.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="815">
+          <caret line="102" column="1" lean-forward="false" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylus/mixin.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="182" column="18" lean-forward="true" selection-start-line="182" selection-start-column="18" selection-end-line="182" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueComponent/button.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1492396412734" expanded="true" signature="177:1085" ph="{...}" />
+            <marker date="1492396412734" expanded="true" signature="191:424" ph="{...}" />
+            <marker date="1492396412734" expanded="true" signature="206:242" ph="{&quot;type&quot;: String...}" />
+            <marker date="1492396412734" expanded="true" signature="264:300" ph="{&quot;type&quot;: String...}" />
+            <marker date="1492396412734" expanded="true" signature="322:358" ph="{&quot;type&quot;: String...}" />
+            <marker date="1492396412734" expanded="true" signature="379:414" ph="{&quot;type&quot;: String...}" />
+            <marker date="1492396412734" expanded="true" signature="443:523" ph="{...}" />
+            <marker date="1492396412734" expanded="true" signature="465:513" ph="{...}" />
+            <marker date="1492396412734" expanded="true" signature="543:1079" ph="{...}" />
+            <marker date="1492396412734" expanded="true" signature="830:962" ph="{...}" />
+            <marker date="1492396412734" expanded="true" signature="991:1069" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueComponent/search.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <marker date="1496308122760" expanded="true" signature="1414:3563" ph="{...}" />
+            <marker date="1496308122760" expanded="true" signature="1460:2247" ph="{&quot;autoScrollToTop&quot;: Boolean...}" />
+            <marker date="1496308122760" expanded="true" signature="1484:1561" ph="{&quot;type&quot;: Boolean...}" />
+            <marker date="1496308122760" expanded="true" signature="1588:1663" ph="{&quot;type&quot;: String...}" />
+            <marker date="1496308122760" expanded="true" signature="1689:1764" ph="{&quot;type&quot;: String...}" />
+            <marker date="1496308122760" expanded="true" signature="1785:1858" ph="{&quot;type&quot;: String...}" />
+            <marker date="1496308122760" expanded="true" signature="1881:2002" ph="{&quot;type&quot;: Array...}" />
+            <marker date="1496308122760" expanded="true" signature="1939:1988" ph="{...}" />
+            <marker date="1496308122760" expanded="true" signature="2021:2097" ph="{&quot;type&quot;: String...}" />
+            <marker date="1496308122760" expanded="true" signature="2121:2199" ph="{&quot;type&quot;: String...}" />
+            <marker date="1496308122760" expanded="true" signature="2267:2369" ph="{...}" />
+            <marker date="1496308122760" expanded="true" signature="2297:2359" ph="{...}" />
+            <marker date="1496308122760" expanded="true" signature="2388:3157" ph="{...}" />
+            <marker date="1496308122760" expanded="true" signature="2410:2532" ph="{...}" />
+            <marker date="1496308122760" expanded="true" signature="2555:2686" ph="{...}" />
+            <marker date="1496308122760" expanded="true" signature="2724:2877" ph="{...}" />
+            <marker date="1496308122760" expanded="true" signature="2902:2958" ph="{...}" />
+            <marker date="1496308122760" expanded="true" signature="2982:3072" ph="{...}" />
+            <marker date="1496308122760" expanded="true" signature="3095:3147" ph="{...}" />
+            <marker date="1496308122760" expanded="true" signature="3174:3317" ph="{...}" />
+            <marker date="1496308122760" expanded="true" signature="3195:3307" ph="{&quot;currentValue&quot;: ''...}" />
+            <marker date="1496308122760" expanded="true" signature="3334:3557" ph="{...}" />
+            <marker date="1496308122760" expanded="true" signature="3359:3414" ph="{...}" />
+            <marker date="1496308122760" expanded="true" signature="3446:3547" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
