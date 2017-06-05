@@ -1,5 +1,6 @@
 @import "val.styl"
 @import "func.styl"
+@import "$extend.styl"
 
 border-1px($color, $isTop=false)
 	&:after
@@ -111,6 +112,9 @@ border-1px-center($color)
 			transform: scaleX(0.5)
 
 border-1px-select($color, $select)
+	$pos = @position
+	if !$pos
+		position: relative
 	&:after
 		position: absolute
 		content: ' '
@@ -161,7 +165,7 @@ border-1px-select($color, $select)
 border-gap($color=borderGapColor, $height=.2rem)
 	border-bottom: $height solid $color
 			
-font-setting()
+font-title()
 	if arguments[2]
 		$height = arguments[2]
 	else
@@ -180,10 +184,12 @@ font-setting()
 	line-height: $height
 	white-space: nowrap
 
-font-height($size)
-	font-size: $size
-	line-height: @font-size
-
+font-box()
+	font-size: arguments[0]
+	line-height: arguments[1] || 1
+	if arguments[2]
+		text-indent: arguments[2]
+	
 circle($size)
 	width: $size
 	height: $size
@@ -214,3 +220,23 @@ resC()
 	top: 0
 	right: 0
 	bottom: 0
+	
+pl()
+	padding-left: arguments[0]
+	box-sizing: border-box
+	
+pr()
+	padding-right: arguments[0]
+	box-sizing: border-box
+	
+pt()
+	padding-top: arguments[0]
+	box-sizing: border-box
+	
+pb()
+	padding-bottom: arguments[0]
+	box-sizing: border-box
+	
+pad()
+	padding: arguments[0] arguments[1] arguments[2] arguments[3]
+	box-sizing: border-box
