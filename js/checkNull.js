@@ -4,28 +4,26 @@
  * @return {boolean}  [true判断为空，false判断不为空]
  */
 function checkNull(val) {
-	if (!val && val !== 0) {
-		return true;
-	} else {
-		if (typeof val === 'object') {
-			const keys = Object.keys(val);
-			if (keys.length > 0) {
-				if (keys.every(item => checkNull(val[item]))) {
-					return true;
-				}
-				return false;
-			} else{
-				return true;
-			}
-		}
-		if (typeof val === 'array') {
-			if (val.every(item => checkNull(item))) {
-				return true;
-			}
-		}
-		return false
+	let innerVal = val;
+	if (typeof val === 'string') {
+		innerVal = innerVal.trim();
 	}
+	if (!innerVal && innerVal !== 0) {
+		return true;
+	}
+	if (typeof innerVal === 'object' &&
+		Object.prototype.toString.call(innerVal) !== '[object Date]') {
+		const keys = Object.keys(innerVal);
+		if (keys.length > 0) {
+			if (keys.every(item => checkNull(innerVal[item]))) {
+				return true;
+			}
+			return false;
+		}
+		return true;
+	}
+	return false;
 }
 
-console.log(checkNull({a: 0, b: null}));
+console.log(checkNull(['   ', {a: ['', ' ']}]))
 
